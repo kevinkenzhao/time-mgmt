@@ -1,6 +1,6 @@
 os: windows
 language: shell
 before_install:
-  - choco install python3 --params "/InstallDir:C:" --version 3.8.0
+  - choco install python3 --version 3.8.0
 env: PATH=c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/opt/bin:/c/Python38:/c/Python38/Scripts:$PATH
 script: python3 attendance-vbs.py
