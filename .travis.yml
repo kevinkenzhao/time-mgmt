@@ -1,5 +1,4 @@
 os: windows
-python: "3.8"
 language: sh
 before_install:
   - choco install python3 --params "/InstallDir:C:\"
